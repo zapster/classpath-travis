@@ -1,6 +1,4 @@
-New in release 1.00 (XXX XX, XXXX)
-
-New in release 0.99 (Feb 15, 2012)
+New in release 0.99 (Mar 08, 2012)
 
 * Addition of java.util.regex.Pattern.quote.
 * Addition of java.io.IOError.

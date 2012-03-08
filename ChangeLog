@@ -1,9 +1,7 @@
-2012-03-07  Andrew John Hughes  <ahughes@redhat.com>
+2012-03-08  Andrew John Hughes  <ahughes@redhat.com>
 
-	* NEWS:
-	Add section for 1.0 release.
-	* configure.ac:
-	Bump to 1.0pre.
+	* NEWS: Set correct release date.
+	* configure.ac: Bump to 0.99 proper.
 
 2012-03-07  Andrew John Hughes  <ahughes@redhat.com>
 
