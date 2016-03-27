@@ -3,6 +3,6 @@ addons:
     packages:
       - gcj-jdk
 script:
-  - ./autogen.sh && ./configure --disable-plugin --disable-Werror --disable-gconf-peer && make
+  - ./autogen.sh && ./configure --disable-plugin --disable-Werror --disable-gconf-peer && make && make check
 after_failure:
   - cat config.log
