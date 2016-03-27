@@ -1,0 +1,8 @@
+addons:
+  apt:
+    packages:
+      - gcj-jdk
+script:
+  - ./autogen.sh && ./configure --disable-plugin --disable-Werror --disable-gconf-peer && make
+after_failure:
+  - cat config.log
