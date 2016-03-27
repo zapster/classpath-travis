@@ -3,6 +3,7 @@ addons:
   apt:
     packages:
       - gcj-jdk
+      - texinfo
 script:
   - ./autogen.sh && ./configure --disable-plugin --disable-Werror --disable-gconf-peer && make && make check
 after_failure:
